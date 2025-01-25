@@ -77,7 +77,7 @@ cd API
    uvicorn myapp:app --reload
    ```
 
-4. Backend будет доступен по адресу [http://localhost:8000](http://localhost:8000).
+4. Backend будет доступен по адресу [http://localhost:8000/docs](http://localhost:8000/docs).
 
 ### Frontend
 1. Перейдите в папку с frontend:
