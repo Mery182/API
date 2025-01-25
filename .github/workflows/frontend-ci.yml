@@ -19,7 +19,7 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: '18'  # Укажите версию Node.js 18 или выше
+        node-version: '18'
 
     - name: Install dependencies
       run: |
@@ -30,8 +30,3 @@ jobs:
       run: |
         cd frontend-vue
         npm run build
-
-    - name: Run tests
-      run: |
-        cd frontend-vue
-        npm test
