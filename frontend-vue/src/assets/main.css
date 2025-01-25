@@ -1,0 +1,23 @@
+
+
+@import './base.css';
+
+@import "tailwindcss";
+
+#app {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+.container {
+  max-width: 98%;
+  margin: 0 auto;
+}
+
+@media (max-width: 786px){
+  .container {
+    width: 95%;
+  }
+}
