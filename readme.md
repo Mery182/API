@@ -54,7 +54,7 @@ cd API
    ```
 
 2. Доступ к приложению:
-   - **Frontend**: [http://localhost:4173/]
+   - **Frontend**: [http://localhost:4173]
    - **Backend**: [http://localhost:8000/docs](http://localhost:8000/docs) (Swagger UI для документации API)
 
 ---
