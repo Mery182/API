@@ -43,8 +43,8 @@
 
 ### Клонирование репозитория
 ```bash
-git clone https://github.com/YourUsername/fastapi-dictionary.git
-cd fastapi-dictionary
+git clone https://github.com/Mery182/API.git
+cd API
 ```
 
 ### Установка с использованием Docker
