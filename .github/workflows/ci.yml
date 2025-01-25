@@ -10,7 +10,7 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-22.04  # Указана конкретная версия
+    runs-on: ubuntu-22.04
 
     steps:
     - name: Checkout code
@@ -19,7 +19,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.9'  # Замените на вашу версию Python, если она отличается
+        python-version: '3.9'
 
     - name: Install dependencies
       run: |
